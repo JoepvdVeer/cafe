@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaartverkoop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kaartverkoop</h1>
+    </header>
+
+    <section>
+        <form id="ticketForm">
+            <label for="eventName">Evenementnaam:</label>
+            <input type="text" id="eventName" name="eventName" required>
+
+            <label for="ticketType">Kaarttype:</label>
+            <select id="ticketType" name="ticketType" required>
+                <option value="standaard">Standaard</option>
+                <option value="vip">VIP</option>
+            </select>
+
+            <label for="quantity">Aantal kaarten:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <label for="fullName">Volledige naam:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">E-mailadres:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Koop kaarten</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Jouw Bedrijfsnaam. Alle rechten voorbehouden.</p>
+    </footer>
+
+</body>
+</html>
