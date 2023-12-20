@@ -1,8 +1,8 @@
-body{
+body{ 
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-}
+ }
 
 header{
   background-color: black;
@@ -12,23 +12,24 @@ header{
 
 h1{
   margin: 0;
+  color: #fff;
 }
 
 nav{
   margin-top: 10px;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
   display: flex;
 }
 
-li{
+li {
   margin-right: 20px;
 }
 
-a{
+a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
@@ -36,7 +37,7 @@ a{
 }
 
 a:hover {
-  color: #FFD700;
+  color: yellow;
 }
 
 main {
@@ -62,3 +63,5 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+
